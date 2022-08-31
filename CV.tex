@@ -1,0 +1,256 @@
+% !TEX program = xelatex
+\documentclass[letterpaper,10pt,oneside]{article}
+
+\newcommand{\TypesetInNonStopMode}{1}
+\newcommand{\TypesetInDraftMode}{0}
+
+\input{CV-Preamble.tex}
+
+\newcommand{\CVAuthor}{John Doe}
+\newcommand{\CVTitle}{John Doe's CV for Acme Corporation}
+\newcommand{\CVNote}{CV compiled on {\today} for Acme Corporation}
+\newcommand{\CVWebpage}{http://www.example.com/johndoe}
+
+\usepackage{verbatim}
+
+
+\hypersetup{
+pdftitle={\CVTitle},
+pdfauthor={\CVAuthor},
+pdfsubject={\CVWebpage},
+pdfcreator={pdflatex},
+pdfproducer={},
+pdfkeywords={},
+pdfpagemode={},
+bookmarks=true,
+unicode=true,
+bookmarksopen=true,
+pdfstartview=FitH,
+pdfpagelayout=OneColumn,
+pdfpagemode=UseOutlines,
+hidelinks,
+breaklinks}
+
+% Shorthand.
+\newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
+
+\begin{document}
+
+\title{Gaelan Venturi}
+
+\begin{subtitle}
+\par
+\href{mailto:gaelanv@pm.me}
+{gaelanv@pm.me}
+\end{subtitle}
+
+\begin{body}
+
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
+
+\section
+{Education}
+{Education}
+{PDF:Education}
+{\textbf{Old Dominion University}},
+Norfolk, Virginia, USA
+
+\GapNoBreak
+\BulletItem 
+Master's (M.S.) in Computer Science
+\hfill 
+\DatestampYM{2020}{01} -- \DatestampYM{2021}{12}
+\SubBulletItem
+Cumulative GPA: 3.75
+\BulletItem
+Bachelor of Science (B.S.) in
+{Mathematics}: \newline Concentration in Applied Mathematics; Minor in {Physics} 
+\hfill
+\DatestampYM{2016}{08} -- \DatestampYM{2019}{05}
+\BulletItem
+Bachelor of Science (B.S.) in {Mathematics}: \newline Concentration in Statistics/Biostatistics;
+\begin{detail}
+\SubBulletItem
+Cumulative GPA: 3.51
+\end{detail}
+
+\medskip
+
+{\textbf{Tidewater Community College (TCC)}}
+\GapNoBreak
+\BulletItem
+Associate of Science (A.S.)
+\hfill
+\DatestampYM{2014}{09} -- \DatestampYM{2016}{05}
+\begin{detail}
+\SubBulletItem
+Cumulative GPA: 3.841/4.000
+\SubBulletItem
+Graduated Summa Cum Laude
+\end{detail}
+
+\section
+{Work Experience}
+{Work Experience}
+{PDF:Work Experience}
+
+{\textbf{Governor School of Science and Technology}}
+\GapNoBreak
+\BulletItem
+Teacher
+\hfill
+\DatestampYM{2021}{08} -- Present
+\SubBulletItem
+Subjects: Computer Programming and Data Science 
+
+\medskip
+
+{\textbf{Hilltop Academy}}
+\GapNoBreak
+\BulletItem
+Teacher/Tutor
+\hfill
+\DatestampYM{2020}{04} -- Present
+\SubBulletItem
+Subjects: SAT Math (Algebra, Geometry, Precalculus), Computer Programming
+
+\medskip
+
+{\textbf{Old Dominion University}},
+Norfolk, Virginia, USA
+\GapNoBreak
+\BulletItem
+Graduate Teaching Assistant
+\hfill
+\DatestampYM{2020}{01} -- \DatestampYM{2021}{12}
+\SubBulletItem 
+Subject: Computer Science, C++ Programming
+
+\medskip
+
+{\textbf{Tidewater Community College (TCC)}}
+\GapNoBreak
+\BulletItem
+Adjunct Professor
+\hfill
+\DatestampYM{2020}{01} -- \DatestampYM{2020}{12}
+\SubBulletItem
+Subjects: Developmental Math
+\BulletItem
+Learning Assistance Center Tutor
+\hfill 
+\DatestampYM{2016}{09} -- \DatestampYM{2020}{12}
+\begin{detail}
+\SubBulletItem
+Subjects: Differential Equations, Calculus I, II, III, and lower \newline General College Physics 1 \& 2, General College Chemistry 1 \& 2
+\end{detail}
+
+\medskip
+
+{\textbf{Tutor \(\textrm{A}^+\) Team }}
+\GapNoBreak
+\BulletItem
+Tutor
+\hfill
+\DatestampYM{2016}{10} -- \DatestampYM{2020}{03} 
+\medskip
+\begin{detail}
+\SubBulletItem
+Subjects: Algebra 1 \& 2, Geometry, Trigonometry, Precalculus, Calculus, Chemistry, Physics, Statistics
+\end{detail}
+
+\medskip
+
+\textbf{Old Dominion University Psychology of Design Lab} 
+\GapNoBreak
+\BulletItem
+Research Assistant
+\hfill
+\DatestampYM{2018}{09} -- \DatestampYM{2019}{05}
+\GapNoBreak
+
+{\textbf{NASA}}
+\GapNoBreak
+\BulletItem
+NIFS Intern
+\hfill
+\DatestampYM{2018}{6} -- \DatestampYM{2018}{8}
+\GapNoBreak
+\begin{detail}
+\SubBulletItem
+Optical Remote Sensing
+\end{detail}
+
+\begin{comment}
+\section
+{Academic Awards}
+{Academic Awards}
+{PDF:AcademicAwards}
+
+\BulletItem
+Deans List,
+Fall 2014, Tidewater Community College 
+\hfill
+\DatestampY{2014}
+\begin{detail}
+\SubItem
+For attaining a semester GPA of at least 3.2.
+\end{detail}
+\BulletItem
+President's Honor Roll, Tidewater Community College
+\hfill
+\DatestampY{2015} -- \DatestampY{2016}
+\begin{detail}
+\SubItem
+For attaining a semester GPA of at least 3.5
+\end{detail}
+
+\section
+{Professional Affiliations\newline}
+{Professional Affiliations}
+{PDF:ProfessionalAffiliations}
+
+{\textbf{Phi Theta Kappa Honor Society}},
+Virginia, USA
+
+\GapNoBreak
+\BulletItem
+Member
+\hfill
+\DatestampY{2015} --
+Present
+
+\end{comment}
+
+\section
+{Skills}
+{Skills}
+{PDF:Skills}
+
+{Mathematics: Number Theory, Numerical Methods, Differential Equations, Calculus I-III, and lower}, {\LaTeX}, {Data Science: SAS, R, Python}, {General Physics}, {General Chemistry}, {Tutoring/Teaching}, {Microsoft Office},     
+
+\section
+{Interests}
+{Interests}
+{PDF:Interests}
+
+Data Science,
+Statistics,
+Applied Mathematics,
+Mathematical Physics,
+Teaching/Tutoring,
+Coffee, 
+Fountain Pens, 
+Guns/Shooting, 
+Chess, 
+Cars/Motorcycles, 
+Computers, 
+Watches
+
+
+\end{body}
+
+\label{LastPage}~
+\end{document}
