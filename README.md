@@ -1,5 +1,5 @@
 # Resume 
-This is my resume/CV. It is a fork of this [repository](https://www.overleaf.com/latex/templates/simple-resume-slash-cv-using-xelatex/krmnngbcwtqn) from Overleaf's templates. 
+This is my resume/CV. It is a fork of this [repository](https://github.com/zachscrivena/simple-resume-cv) that was originally gotten from Overleaf's templates. 
 
 <!-- simple-resume-cv -->
 <!-- ================ -->
